@@ -14,4 +14,6 @@ Route::prefix('example-prefix', function () {
             $this->options()
         );
     });
+
+    Route::console('other-command', \App\Console\Commands\Example::class);
 });
