@@ -9,7 +9,9 @@
 namespace App\Http\Controllers;
 
 
-class ExampleController
+use Aragil\Http\Controller;
+
+class ExampleController extends  Controller
 {
     public function welcome()
     {
