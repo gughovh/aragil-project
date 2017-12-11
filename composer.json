@@ -1,0 +1,13 @@
+{
+    "require": {
+        "gughovh/aragil": "^0.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "bootstrap/consts.php"
+        ]
+    }
+}

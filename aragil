@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: admin
+ * Date: 11.12.2017
+ * Time: 12:05
+ */
+const APP_CONSOLE = true;
+
+use Aragil\Core\Application;
+
+require __DIR__ . '/vendor/autoload.php';
+
+/** @var $app Application */
+$app = require_once __DIR__ . '/bootstrap/app.php';
+
+$app->handle();
