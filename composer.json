@@ -1,5 +1,8 @@
 {
+    "name": "gughovh/aragil-project",
+    "type": "project",
     "require": {
+        "php": ">=7.0.0",
         "gughovh/aragil": "^0.0.3"
     },
     "autoload": {
@@ -8,6 +11,11 @@
         },
         "files": [
             "bootstrap/consts.php"
+        ]
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ]
     }
 }
