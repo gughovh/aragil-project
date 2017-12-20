@@ -6,5 +6,5 @@
  * Time: 13:08
  */
 return [
-    'name' => env('APP.NAME', 'Aragil')
+    'name' => ini('APP.NAME', 'Aragil')
 ];
