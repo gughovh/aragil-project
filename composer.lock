@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b11daa688f9c8a99d6798dcf158df5ef",
+    "content-hash": "0212fc2055a2718e0722f3debfbcf69a",
     "packages": [
         {
             "name": "gughovh/aragil",
-            "version": "0.0.3",
+            "version": "0.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gugohovhannisyan/aragil.git",
-                "reference": "431aeb435e26648617a2e480d503131068e5e99e"
+                "reference": "5362a8bc1a2f8893e84faebc0582ffc9d8c96b64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/431aeb435e26648617a2e480d503131068e5e99e",
-                "reference": "431aeb435e26648617a2e480d503131068e5e99e",
+                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/5362a8bc1a2f8893e84faebc0582ffc9d8c96b64",
+                "reference": "5362a8bc1a2f8893e84faebc0582ffc9d8c96b64",
                 "shasum": ""
             },
             "require": {
@@ -41,7 +41,7 @@
                 "aragil",
                 "framework"
             ],
-            "time": "2017-12-11T09:24:06+00:00"
+            "time": "2017-12-20T09:09:12+00:00"
         }
     ],
     "packages-dev": [],
@@ -50,6 +50,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=7.0.0"
+    },
     "platform-dev": []
 }
