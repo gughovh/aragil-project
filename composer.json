@@ -14,7 +14,7 @@
         ]
     },
     "scripts": {
-        "post-root-package-install": [
+        "post-create-project-cmd": [
             "@php -r \"file_exists('.ini') || copy('.ini.example', '.ini');\"",
             "@php bootstrap/composerPostUpdate.php"
         ],
