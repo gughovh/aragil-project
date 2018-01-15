@@ -1,0 +1,12 @@
+mysql[host] =
+mysql[port] =
+mysql[username] =
+mysql[password] =
+mysql[database] =
+
+clickhouse[host] =
+clickhouse[port] =
+clickhouse[username] =
+clickhouse[password] =
+clickhouse[database] =
+
