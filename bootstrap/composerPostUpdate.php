@@ -12,7 +12,12 @@ require_once __DIR__ . '/../bootstrap/app.php';
 createDirs([
     LOG_DIR,
     APP_STORAGE_DIR,
-    MIGRATED_DIR
+    MIGRATED_DIR,
+    DATABASE_DIR,
+    DATABASE_DIR . DS . 'clickhouse',
+    DATABASE_DIR . DS . 'clickhouse' . DS . 'migrations',
+    DATABASE_DIR . DS . 'mysql',
+    DATABASE_DIR . DS . 'mysql' . DS . 'migrations',
 ]);
 
 function createDirs(array $dirs)

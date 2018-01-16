@@ -8,20 +8,21 @@
     "packages": [
         {
             "name": "gughovh/aragil",
-            "version": "0.0.26",
+            "version": "0.0.42",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gugohovhannisyan/aragil.git",
-                "reference": "5362a8bc1a2f8893e84faebc0582ffc9d8c96b64"
+                "reference": "a904b87cf95441513b5be0dbc7a08f4d93408656"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/5362a8bc1a2f8893e84faebc0582ffc9d8c96b64",
-                "reference": "5362a8bc1a2f8893e84faebc0582ffc9d8c96b64",
+                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/a904b87cf95441513b5be0dbc7a08f4d93408656",
+                "reference": "a904b87cf95441513b5be0dbc7a08f4d93408656",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.0.0"
+                "php": ">=7.0.0",
+                "smi2/phpclickhouse": "^0.17.11"
             },
             "type": "library",
             "autoload": {
@@ -41,7 +42,58 @@
                 "aragil",
                 "framework"
             ],
-            "time": "2017-12-20T09:09:12+00:00"
+            "time": "2018-01-16T07:44:40+00:00"
+        },
+        {
+            "name": "smi2/phpclickhouse",
+            "version": "0.17.12.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smi2/phpClickHouse.git",
+                "reference": "e0f6c52c7deedfd499ce17f6beac2805c7c6a565"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smi2/phpClickHouse/zipball/e0f6c52c7deedfd499ce17f6beac2805c7c6a565",
+                "reference": "e0f6c52c7deedfd499ce17f6beac2805c7c6a565",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "5.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Strykhar",
+                    "email": "isublimity@gmail.com",
+                    "homepage": "https://github.com/isublimity"
+                }
+            ],
+            "description": "php ClickHouse client library",
+            "homepage": "https://github.com/smi2/phpClickHouse",
+            "keywords": [
+                "clickhouse",
+                "client",
+                "curl",
+                "driver",
+                "http",
+                "http client"
+            ],
+            "time": "2017-12-28T07:40:46+00:00"
         }
     ],
     "packages-dev": [],
