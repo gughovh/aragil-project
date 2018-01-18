@@ -20,6 +20,10 @@
         ],
         "post-update-cmd": [
             "@php bootstrap/composerPostUpdate.php"
+        ],
+        "post-install-cmd": [
+            "@php -r \"file_exists('.ini') || copy('.ini.example', '.ini');\"",
+            "@php bootstrap/composerPostUpdate.php"
         ]
     }
 }

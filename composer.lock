@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "gughovh/aragil",
-            "version": "0.0.42",
+            "version": "0.0.47",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gugohovhannisyan/aragil.git",
-                "reference": "a904b87cf95441513b5be0dbc7a08f4d93408656"
+                "reference": "6598990ed585ec2430c43fb48072a880e3d6f406"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/a904b87cf95441513b5be0dbc7a08f4d93408656",
-                "reference": "a904b87cf95441513b5be0dbc7a08f4d93408656",
+                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/6598990ed585ec2430c43fb48072a880e3d6f406",
+                "reference": "6598990ed585ec2430c43fb48072a880e3d6f406",
                 "shasum": ""
             },
             "require": {
@@ -34,15 +34,12 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
             "description": "The Aragil Framework.",
             "keywords": [
                 "aragil",
                 "framework"
             ],
-            "time": "2018-01-16T07:44:40+00:00"
+            "time": "2018-01-18T09:10:29+00:00"
         },
         {
             "name": "smi2/phpclickhouse",
