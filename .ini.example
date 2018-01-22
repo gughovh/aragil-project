@@ -1,12 +1,16 @@
-mysql[host] =
-mysql[port] =
-mysql[username] =
-mysql[password] =
-mysql[database] =
+[mysql]
+host =
+port] =
+username =
+password =
+database =
 
-clickhouse[host] =
-clickhouse[port] =
-clickhouse[username] =
-clickhouse[password] =
-clickhouse[database] =
+[clickhouse]
+host =
+port =
+username =
+password =
+database =
 
+[queue]
+driver = redis
