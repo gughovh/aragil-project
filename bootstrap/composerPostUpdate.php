@@ -18,6 +18,7 @@ createDirs([
     DATABASE_DIR . DS . 'clickhouse' . DS . 'migrations',
     DATABASE_DIR . DS . 'mysql',
     DATABASE_DIR . DS . 'mysql' . DS . 'migrations',
+    CACHE_DIR,
 ]);
 
 function createDirs(array $dirs)

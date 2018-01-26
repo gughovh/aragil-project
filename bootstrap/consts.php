@@ -16,3 +16,4 @@ const LOG_DIR = STORAGE_DIR . DS . 'log';
 const APP_STORAGE_DIR = STORAGE_DIR . DS . 'app';
 const MIGRATED_DIR = STORAGE_DIR . DS . 'migrations';
 const DATABASE_DIR = BASE_DIR . DS . 'database';
+const CACHE_DIR = STORAGE_DIR . DS . 'cache';
