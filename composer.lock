@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "gughovh/aragil",
-            "version": "0.0.71",
+            "version": "0.0.80",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gugohovhannisyan/aragil.git",
-                "reference": "72aac942cb98a09879001de7660a8ffe516ecca2"
+                "reference": "c139b32243d43c69b40614b7fdbe12a5536227f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/72aac942cb98a09879001de7660a8ffe516ecca2",
-                "reference": "72aac942cb98a09879001de7660a8ffe516ecca2",
+                "url": "https://api.github.com/repos/gugohovhannisyan/aragil/zipball/c139b32243d43c69b40614b7fdbe12a5536227f9",
+                "reference": "c139b32243d43c69b40614b7fdbe12a5536227f9",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "aragil",
                 "framework"
             ],
-            "time": "2018-01-26T12:58:25+00:00"
+            "time": "2018-02-01T12:57:14+00:00"
         },
         {
             "name": "predis/predis",
